@@ -3,6 +3,8 @@
 macOS-style screenshot thumbnail for Omarchy. After any capture, a draggable
 thumbnail slides in from the bottom-right corner.
 
+![Snapshelf thumbnail in the bottom-right corner of an Omarchy desktop](preview.png)
+
 - **Drag** it into any application to share the image
 - **Click** to open it in your screenshot editor
 - **Hover** to keep it on screen
@@ -58,6 +60,11 @@ both.
 -- ~/.config/hypr/looknfeel.lua
 hl.layer_rule({ match = { namespace = "snapshelf" }, animation = "slide bottom" })
 ```
+
+## Known limitations
+
+On a multi-monitor setup the thumbnail always appears on the same output rather
+than following the focused monitor.
 
 ## Privileges and network
 
