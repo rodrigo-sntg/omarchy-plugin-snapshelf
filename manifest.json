@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "io.github.rodrigo-sntg.screenshot-preview",
-  "name": "Screenshot Preview",
+  "id": "io.github.rodrigo-sntg.snapshelf",
+  "name": "Snapshelf",
   "version": "1.0.0",
   "author": "Rodrigo Santiago",
   "license": "MIT",

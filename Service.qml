@@ -17,7 +17,7 @@ Item {
 
   readonly property string pluginId: (manifest && manifest.id)
     ? String(manifest.id)
-    : "io.github.rodrigo-sntg.screenshot-preview"
+    : "io.github.rodrigo-sntg.snapshelf"
 
   property string lastPath: ""
 

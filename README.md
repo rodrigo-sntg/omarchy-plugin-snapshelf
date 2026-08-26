@@ -1,4 +1,4 @@
-# Screenshot Preview
+# Snapshelf
 
 macOS-style screenshot thumbnail for Omarchy. After any capture, a draggable
 thumbnail slides in from the bottom-right corner.
@@ -16,7 +16,7 @@ there.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/rodrigo-sntg/omarchy-plugin-screenshot-preview.git --enable
+omarchy plugin add https://github.com/rodrigo-sntg/omarchy-plugin-snapshelf.git --enable
 ```
 
 ## Requirements
@@ -56,7 +56,7 @@ both.
 
 ```lua
 -- ~/.config/hypr/looknfeel.lua
-hl.layer_rule({ match = { namespace = "screenshot-preview" }, animation = "slide bottom" })
+hl.layer_rule({ match = { namespace = "snapshelf" }, animation = "slide bottom" })
 ```
 
 ## Privileges and network
@@ -67,7 +67,7 @@ None. The plugin reads image files from the screenshot directory and spawns
 ## Remove
 
 ```bash
-omarchy plugin remove io.github.rodrigo-sntg.screenshot-preview
+omarchy plugin remove io.github.rodrigo-sntg.snapshelf
 ```
 
 ## License

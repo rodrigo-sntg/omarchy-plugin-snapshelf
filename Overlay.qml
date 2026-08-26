@@ -18,7 +18,7 @@ Item {
 
   readonly property string pluginId: (manifest && manifest.id)
     ? String(manifest.id)
-    : "io.github.rodrigo-sntg.screenshot-preview"
+    : "io.github.rodrigo-sntg.snapshelf"
 
   property bool opened: false
   property bool showing: false
@@ -103,7 +103,7 @@ Item {
     color: "transparent"
 
     // Matches the Hyprland layer_rule that slides it in from the bottom edge.
-    WlrLayershell.namespace: "screenshot-preview"
+    WlrLayershell.namespace: "snapshelf"
     WlrLayershell.layer: WlrLayer.Overlay
     // Never take keyboard focus: a screenshot thumbnail must not steal input
     // from whatever the user is typing into.
