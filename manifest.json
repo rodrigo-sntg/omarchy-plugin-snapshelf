@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.rodrigo-sntg.screenshot-preview",
+  "name": "Screenshot Preview",
+  "version": "1.0.0",
+  "author": "Rodrigo Santiago",
+  "license": "MIT",
+  "description": "macOS-style draggable thumbnail of the last screenshot. Drag it into any app to share, click to edit, auto-dismisses after 5s.",
+  "kinds": [
+    "service",
+    "overlay"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "overlay": "Overlay.qml"
+  }
+}
